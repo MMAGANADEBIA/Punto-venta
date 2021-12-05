@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Inventario</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="icon" type="image/png" href="/assets/icons/inventario.svg"> 
+    <link href="/assets/css/inventario.css" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <form action="/dashboard" method="POST">
+        <button type="submit" class="bordes" id="atras">Atras</button>
+      </form>
+    </div>
+
+    <div id="bloques">
+      <div id="formulario" class="bordes">
+      <h1>Inventario</h1>
+      <form>
+        <div id="identificador">
+          <input type="number" name="id" placeholder="id" id="ID" class="bordes">
+        </div>
+        <div id="nombreDelProducto">
+          <input type="text" name="nombreProducto" placeholder="Nombre del producto" id="Nombre del producto" class="bordes">
+        </div>
+        <div id="precioDiv">
+          <input type="number" name="precio" placeholder="Precio" class="bordes">
+        </div>
+        <div>
+          <input type="number" name="cantidad" placeholder="cantidad" class="bordes">
+        </div>
+        <div id="botones">
+          <button type="submit" id="agregar" class="bordes">Agregar</button>
+        </div>
+      </form>
+    </div>
+    <div id="lista_inventario" class="bordes">
+      <h1>Lista de productos</h1>
+      <table id="listaProductos">
+          <tr>
+            <th class="cabezera">ID</th>
+            <th class="cabezera">Nombre</th>
+            <th class="cabezera">Precio</th>
+            <th class="cabezera">Cantidad</th>
+          </tr>
+          <tr>
+            <td>Inf</td>
+            <td>Inf</td>
+            <td>Inf</td>
+            <td>Inf</td>
+          </tr>
+        </table>
+    </div>
+    </div>
+    
+  
+  </body>
+</html>

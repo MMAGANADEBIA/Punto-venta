@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cuentas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/assets/css/cuentas.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="icon" type="image/png" href="/assets/icons/recibo.svg"> 
+  </head>
+  <body>
+
+  <div>
+    <form action="/dashboard" method="POST">
+      <button type="submit" class="bordes">Atrás</button>
+    </form>
+  </div>
+
+  <div id="bloques">
+    <div id="bloque_formulario" class="bordes">
+      <h1>Agregar deuda</h1>
+      <form>
+        <div>
+          <input type="text" name="nombre" placeholder="Nombre" class="bordes">
+        </div>
+        <div>
+          <input type="number" name="cantidad" placeholder="Cantidad" class="bordes">
+        </div>
+        <div>
+          <button type="submit" class="bordes botones_formulario">Agregar</button>
+        </div>
+      </form>
+    </div>
+    <div id="bloque_lista" class="bordes">
+      <h1>Deudas</h1>
+        <table id="listaProductos">
+          <tr>
+            <th class="cabezera">Nombre</th>
+            <th class="cabezera">Cantidad</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Nombre 1</td>
+            <td>Precio 1</td>
+          </tr>
+        </table>
+    </div>
+  </div>
+  <div id="abonos" class="bordes">
+    <h1>Abonos</h1>
+    <form action="/dashboard/cuentas/abonar" method="POST">
+      <input type="text" name="nombre" placeholder="Nombre" class="bordes">
+      <input type="number" name="cantidad" placeholder="Cantidad" class="bordes">
+      <button type="submit" class="bordes botones_formulario">Abonar</button>
+    </form>
+  </div>
+
+  </body>
+</html>

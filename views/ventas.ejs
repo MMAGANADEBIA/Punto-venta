@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ventas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/assets/css/ventas.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="icon" type="image/png" href="/assets/icons/bolsa-de-la-compra.svg"> 
+  </head>
+  <body>
+
+    <div>
+      <form action="/dashboard" method="POST">
+        <button type="submit" class="bordes" id="atras">Atras</button>
+      </form>
+    </div>
+
+    <div id="dosBloques">
+      <div id="productos" class="bordes bloque">
+        <h1>Ventas</h1>
+        <div id="productoDiv">
+          <input type="text" name="producto" placeholder="Producto" class="bordes">
+        </div>
+        <div id="cantidadDiv">
+          <input type="number" name="cantidadProducto" placeholder="Cantidad" class="bordes">
+        </div>
+        <div id="agregarDiv">
+          <button type="submit" class="bordes" id="agregar">Agregar</button>
+        </div>
+      </div>
+
+      <div class="bloque bordes">
+        <h1>Productos</h1>
+        <div id="lista">
+          <table id="listaProductos">
+            <tr>
+              <th class="cabezera">Producto</th>
+              <th class="cabezera">Cantidad</th>
+              <th class="cabezera">Precio</th>
+            </tr>
+            <tr>
+              <td>Producto 1</td>
+              <td>Producto 2</td>
+              <td>Producto 3</td>
+            </tr>
+            <tr>
+              <td>Total:</td>
+              <td>$$$</td>
+            </tr>
+          </table> 
+        </div>
+      </div>
+    </div> 
+    <div id="pago" class="bordes">
+      <h1>Pagos</h1>
+      <form>
+        <input type="number" name="recibido" placeholder="Recibido" id="recibido" class="bordes">
+        <p id="devolucion">Devuelve:</p>
+        <button type="submit" class="bordes" id="pagar">Pagar</button>
+      </form>
+    </div>
+  </body>
+</html>

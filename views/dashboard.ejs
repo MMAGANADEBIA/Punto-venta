@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./assets/css/dashboard.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="icon" type="image/png" href="./assets/icons/mujer.svg"> 
+  </head>
+  <body>
+
+    <div>
+      <form action="/" method="GET">
+        <button type="submit" id="logout" class="bordes">Cerrar Sesión</button>
+      </form>
+    </div>
+
+    <div id="dashboardDiv">
+      <h1>Dashboard</h1>
+    </div>
+
+    <div id="barraLateral" class="bordes">
+      <form action="/dashboard/caja" method="GET">
+        <button type="" class="bordes">Caja</button>
+      </form>
+      <form action="/dashboard/ventas" method="GET">
+        <button type="" class="bordes">Ventas</button>
+      </form>
+      <form action="/dashboard/inventario" method="GET">
+        <button type="submit" class="bordes">Inventario</button>
+      </form>
+      <form action="/dashboard/cuentas" method="GET">
+        <button type="submit" class="bordes">Cuentas</button>
+      </form>
+    </div>
+
+    <script type="module" src="/assets/script/dashboard.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

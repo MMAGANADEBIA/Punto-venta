@@ -1,0 +1,36 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #242A38;
+}
+
+button{
+  font-family: 'Roboto', sans-serif;
+  background-color: #8FCCE1;
+  width: 80%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 0px;
+  padding: 7px;
+  margin-left: 1em;
+}
+
+#barraLateral{
+  background-color: #343A48;
+  width: 10%;
+}
+
+.bordes{
+  border-radius: 5px;
+}
+
+h1{
+  color: #8FCCE1;
+}
+
+#dashboardDiv{
+  text-align: center;
+}
+
+#logout{
+  width: 100px;
+}

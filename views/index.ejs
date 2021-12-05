@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LogIn</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./assets/css/login.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="icon" type="image/png" href="./assets/icons/bloquear.svg"> 
+  </head>
+  <body>
+    
+    <div id="login" class="bordes">
+      <h1 id="bienvenida">Bienvenido</h1>
+      <form action="/dashboard" method="POST" id="iniciar_sesion" name="formulario">
+        <div id="usuario">
+          <span id="usuarioSpan"><img id="usuarioImagen" src="./assets/icons/mujer.svg"/></span>
+          <input type="text" name="usuario" placeholder="usuario" id="usuario" class="bordes anchura" required>
+        </div>
+        <div id="contraseña">
+          <span id="contraseñaSpan"><img id="contraseñaImagen" src="./assets/icons/bloquear.svg"/></span>
+          <input type="password" name="contraseña" placeholder="contraseña" id="contraseña" class="bordes anchura" required>
+        </div>  
+        <button type="button" id="loginButton" class="bordes anchura">Iniciar Sesión</button>     
+      </form>           
+      <form action="/crear_cuenta" method="GET">
+        <a href="/crear_cuenta" id="crear_cuenta">Crear una cuenta.</a>
+      </form>
+    </div>
+
+    <div hidden>
+      <p id="estado"><%=JSON.stringify(estado)%></p>
+    </div>
+
+    <script type="module" src="/assets/scripts/index.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

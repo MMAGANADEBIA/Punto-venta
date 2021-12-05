@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Caja</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/assets/css/caja.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="icon" type="image/png" href="/assets/icons/caja-fuerte.svg"> 
+  </head>
+  <body>
+
+    <div>
+      <form action="/dashboard" method="POST">
+        <button type="submit" class="bordes">Atras</button>
+      </form>
+    </div>
+
+    <div id="bloque" class="bordes">
+      <h1>Caja</h1>
+      <div>
+        <p>Usuario:</p>
+      </div>
+      <div>
+        <p>Balance total:</p>
+      </div>
+      <div>
+        <form>
+          <input type="number" name="retiro" placeholder="Cantidad a retirar" id="retiro" class="bordes">
+          <button type="submit" class="bordes" id="retirar">Retirar</button>
+        </form>
+      </div>
+    </div>
+  
+  </body>
+</html>

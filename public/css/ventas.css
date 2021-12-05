@@ -1,0 +1,108 @@
+body{
+  background-color: #242A38;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.bloque{
+  background-color: #343A48;
+  width: 30%;
+  margin-top: 3em;
+  text-align: center;
+  padding: 2rem;
+}
+
+.bordes{
+  border-radius: 5px;
+}
+
+input{
+  padding: 7px;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  border: 0;
+  width: 100%;
+}
+
+button{
+  background-color: #8FCCE1;
+  outline: none;
+  text-decoration: none;
+  border: 0;
+  padding: 7px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#agregar{
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: #8FCCE1;
+}
+
+::placeholder{
+  color: black;
+  opacity: 1;
+}
+
+#dosBloques{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+thead th:nth-child(1){
+  width: 30%;
+}
+
+thead th:nth-child(2){
+  width: 20%;
+}
+
+thead th:nth-child(3){
+  width: 15%;
+}
+
+th, td{
+  padding: 20px;
+}
+
+.cabezera{
+  font-weight: bold;
+  font-size: x-large;
+  color: #FFFFFF;
+}
+
+td{
+  color: #D3D7CF;
+}
+
+#pago{
+  width: 30%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  background-color: #343A48;
+  padding: 2rem;
+
+}
+
+#pagar{
+  width: 100%;
+}
+
+#devolucion{
+  text-align: left;
+}

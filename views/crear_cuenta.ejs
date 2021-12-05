@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Crear cuenta</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/assets/css/crear_cuenta.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="icon" type="image/png" href="/assets/icons/cuenta.svg"> 
+  </head>
+  <body>
+
+    <div>
+      <form action="/" method="GET">
+        <button type="submit" class="bordes">Atrás</button>
+      </form>
+    </div>
+
+    <div id="bloque" class="bordes">
+      <h1>Crear cuenta</h1>
+      <form action="/crear_cuenta/agregar_cuenta" method="POST" id="crear_cuenta" name="formulario">
+        <div>
+          <input type="text" name="usuario" placeholder="Usuario" id="usuario" class="bordes" required>
+        </div>
+        <div>
+         <input type="password" name="contraseña" placeholder="Contraseña" id="contraseña" class="bordes" required>
+        </div>
+        <button type="button" id="crear" class="bordes">Crear cuenta</button>
+      </form>
+    </div>
+
+    <div hidden>
+      <!--Ver si puedo integrarlo de otra forma o ponerlo invisible-->
+      <p id="estado"><%=JSON.stringify(usuarios)%></p>
+    </div>
+
+    <script type="module" src="/assets/scripts/crear_cuenta.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

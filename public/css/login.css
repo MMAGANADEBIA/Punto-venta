@@ -1,0 +1,73 @@
+body{
+  background-color: #242A38;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bordes{
+  border-radius: 5px;
+}
+
+.anchura{
+  width: 89%;
+}
+
+#login{
+  background-color: #343A48;
+}
+
+#loginButton{
+  background-color: #8FCCE1;
+}
+
+#bienvenida{
+  color: #8FCCE1;
+}
+
+#login{
+  width: 30%;
+  margin: auto;
+  margin-top: 5rem;
+  text-align: center;
+  padding: 2rem;
+  border: 0;
+}
+
+#loginButton{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  outline: none;
+  text-decoration: none;
+  border: 0;
+  padding: 7px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+input{
+  margin-top: 10px;
+  padding: 7px;
+  font-family: 'Roboto', sans-serif;
+  border: 0;
+}
+
+input:invalid{
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:valid{
+  border: 2px solid gren;
+}
+
+::placeholder{
+  color: black;
+  opacity: 1;
+}
+
+#usuarioImagen, #contraseñaImagen{
+  width: 20px;
+  height: 20px;
+}
+
+#crear_cuenta{
+  color: white;
+}

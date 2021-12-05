@@ -1,0 +1,106 @@
+body{
+  background-color: #242A38;
+  font-family: 'Roboto', sans-serif;
+}
+
+button{
+  background-color: #8FCCE1; outline: none;
+  text-decoration: none;
+  border: 0;
+  padding: 7px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bordes{
+  border-radius: 5px;
+}
+
+#bloques{
+  display: flex;
+  justify-content: space-around;
+}
+
+#bloque_formulario, #bloque_lista, #abonos{
+  width: 30%;
+  margin-top: 5rem;
+  text-align: center;
+  padding: 2rem;
+  background-color: #343A48;
+}
+
+#bloque_lista{
+  width: 30%;
+  margin-top: 5rem;
+  text-align: center;
+  padding: 2rem;
+  background-color: #343A48;
+}
+
+h1{
+  color: #8FCCE1;
+}
+
+input{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+  padding: 7px;
+  border: 0;
+}
+
+::placeholder{
+  color: black;
+  opacity: 1;
+}
+
+.botones_formulario{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  outline: none;
+  text-decoration: none;
+  border: 0;
+  padding: 7px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+input{
+  width: 96%;
+}
+
+table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+thead th:nth-child(1){
+  width: 30%;
+}
+
+thead th:nth-child(2){
+  width: 20%;
+}
+
+thead th:nth-child(3){
+  width: 15%;
+}
+
+th, td{
+  padding: 20px;
+}
+
+.cabezera{
+  font-weight: bold;
+  font-size: x-large;
+  color: #FFFFFF;
+}
+
+td{
+  color: #D3D7CF;
+}
+
+#abonos{
+  margin: auto;
+  margin-top: 30px;
+}

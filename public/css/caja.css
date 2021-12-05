@@ -1,0 +1,49 @@
+body{
+  background-color: #242A38;
+  font-family: 'Roboto', sans-serif;
+}
+
+#bloque{
+  background-color: #343A48;
+  width: 30%;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 2rem;
+  color: white;
+}
+
+.bordes{
+  border-radius: 5px;
+}
+
+button{
+  background-color: #8FCCE1;
+  padding: 7px;
+  outline: none;
+  text-decoration: none;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#retirar{
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+input{
+  padding: 7px;
+  width: 95%;
+  font-family: 'Roboto', sans-serif;
+  border: 0;
+}
+
+::placeholder{
+  color: black;
+  opacity: 1;
+}
+
+h1{
+  color: #8FCCE1;
+  text-align: center;
+}

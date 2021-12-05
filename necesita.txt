@@ -1,0 +1,6 @@
+caja (arqueo de cajero, corte de caja, retiro de valores.)
+ventas (suma de productos y costo) falta el boton de pagar y la cantidad con la que paga y el cambio
+inventario (dos bloques, el formulario de agregar y el otro una lista) 
+cuentas por cobrar (a clientes)
+
+incluir reportes de ventas y rendimiento
